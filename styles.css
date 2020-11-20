@@ -1,36 +1,32 @@
-body {
-    background:#0989B4;
-    max-width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.first-container{
+body{
+    background-color: #0989B4;
     max-height: 100%;
-    height: 100%;
+    max-width: 100%;
+    margin: 0;
 }
 
-.top-bg-container{
-    position: relative;
-    max-width: 50%;
-    max-height: 50%;
-    bottom: 500px;
+.main-container {
+    text-align: center;
 }
 
-.top-bg-img{
-    position: absolute;
-    right: 0;
+.top-img{
+    position: fixed;
+    bottom: 50%;
+    right: 50%;
+    size: 100%;
 }
 
-.bottom-bg-container{
-    position: relative;
-    max-height: 200px;
-    max-width: 100px;
-    width: 100px;
-}
-
-.bottom-bg-img{
-    position: absolute;
-    top: 50%;
+.bottom-img{
+    position: fixed;
     left: 50%;
+    top: 50%;
+    size: 100%;
+}
+
+.card-container{
+    position: relative;
+    margin: 150px auto auto auto;
+    height: 400px;
+    width: 350px;
+    background-color: antiquewhite;
 }
