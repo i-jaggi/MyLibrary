@@ -1,23 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+</style>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>My Library</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&family=Ubuntu&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <div class="main-container">
-        <img class=top-img src="images/bg-pattern-top.svg">
-        <img class=bottom-img src="images/bg-pattern-bottom.svg">
+    <div class="first-container" text-align="center">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <div class="name-and-description">
+            <h1 id="name">I'm Jagjeet</h1>
+            <h2 id="description">a programmer.</h3>
+        </div>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img class="mountain" src="images/mountain.png" alt="mntn-img">
+    </div>
 
-        <div class="card-container">
-            
+    <div style="background-color: whitesmoke;">
+        <div class="middle-container">
+            <div class="profile-container">
+                <img class="profile-img" src="images/profilepicture.png" alt="profile_picture-img">
+                <h2>Hello.</h2>
+                <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla
+                    distinctio.
+                </p>
+            </div>
+            <hr>
+            <div class="skills">
+                <h2 class=skills-header>My Skills</h2>
+                <div class="skill-row">
+                    <img class="code-img" src="images/computer.png" alt="skill-img">
+                    <h3>Java Programmming</h3>
+                    <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna
+                        lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+                </div>
+                <div class="skill-row">
+                    <img class="web-img" src="images/web.svg" alt="skill-img">
+                    <h3>Web Dvelopment</h3>
+                    <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis
+                        mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="contact-me">
+                <h2>Get In Touch</h2>
+                <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+                <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.
+                </p>
+                <a href="mailto:jaggi1600@gmail.com" class="btn">Email me</a>
+            </div>
         </div>
     </div>
 
-</body>
 
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.github.com/">Website</a>
+        <p>© 2020 Jagjeet Singh.</p>
+    </div>
+
+    <br>
+</body>
 </html>
